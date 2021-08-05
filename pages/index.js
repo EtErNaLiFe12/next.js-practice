@@ -1,12 +1,14 @@
 import Head from 'next/head'
+import HeadInfo from '../components/HeadInfo'
 
 
 export default function Home({posts}) {
   console.log(posts)
   return (
     <div>
-      <h1>Welcome to My Blog</h1>
-      <ul>
+      <HeadInfo/>
+      <h1 style={{ textAlign: 'center' }}>Welcome to My Blog</h1>
+      <ul style={{ textAlign: 'center' }}>
         {posts.map(post => (
           <li key={post.id}>{post.title}</li>
         ))}
