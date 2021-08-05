@@ -1,0 +1,16 @@
+.top {
+  position: relative;
+  display: flex;
+}
+
+.top h2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 2rem;
+}
+
+.top img {
+  width: 200px;
+  height: 100px;
+}
