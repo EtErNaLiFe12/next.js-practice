@@ -9,8 +9,8 @@ export default function Top() {
         <a>
           <Image
             style={{ margin: 50 }}
-            width='200'
-            height='100'
+            width='200px'
+            height='100px'
             src="/images/Youtube-Channel-Art-2.png"
             alt="test"
           />

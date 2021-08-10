@@ -7,12 +7,14 @@ export default function Home({posts}) {
   return (
     <div>
       <HeadInfo/>
-      <h1 style={{ textAlign: 'center' }}>Welcome to My Blog</h1>
-      <ul style={{ textAlign: 'center' }}>
-        {posts.map(post => (
-          <li key={post.id}>{post.title}</li>
-        ))}
-      </ul>
+      <h1 style={{ textAlign: 'center' }}>작업 진행중 입니다!!!</h1>
+        <div style={{ justifyContent: 'left' }}>
+          <ul style={{ textAlign: 'center' }}>
+            {posts.map(post => (
+              <li key={post.id}>{post.title}</li>
+            ))}
+          </ul>
+        </div>
     </div>
    
   )
