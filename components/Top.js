@@ -16,7 +16,7 @@ export default function Top() {
           />
         </a>
       </Link>
-      <h2>Instruction page</h2>
+      {/* <h2>Instruction page</h2> */}
     </div>
   )
 }

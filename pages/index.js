@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import HeadInfo from '../components/HeadInfo'
-
+import Slider from '../components/Slider'
 
 export default function Home({posts}) {
   console.log(posts)
@@ -8,6 +8,7 @@ export default function Home({posts}) {
     <div>
       <HeadInfo/>
       <h1 style={{ textAlign: 'center' }}>작업 진행중 입니다!!!</h1>
+      <Slider/>
         <div style={{ justifyContent: 'left' }}>
           <ul style={{ textAlign: 'center' }}>
             {posts.map(post => (

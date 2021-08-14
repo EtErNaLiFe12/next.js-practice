@@ -1,11 +1,12 @@
 import HeadInfo from "../components/HeadInfo"
+import Slider from '../components/Slider'
 
 const photos = () => {
   return (
-    <div>
+    <>
       <HeadInfo title="My Blog Photos" />
-      <h1>My Photos</h1>
-    </div>
+      <Slider/>
+    </>
   )
 }
 
